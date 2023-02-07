@@ -3,6 +3,8 @@ sessions.txt
 
 node_modules/**
 
+.DS_Store
+
 # Created by https://www.toptal.com/developers/gitignore/api/intellij,yarn
 # Edit at https://www.toptal.com/developers/gitignore?templates=intellij,yarn
 
