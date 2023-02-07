@@ -66,7 +66,7 @@ persistence:
   enabled: false
   storageClass: standard-rwo
   accessMode: ReadWriteOnce
-  size: 256Mb
+  size: 32Mi
 
 slack:
   botToken: "xoxb-...."
