@@ -52,7 +52,7 @@ spec:
               value: {{ .Values.openai.apiKey }}
           {{- if .Values.persistence.enabled }}
           volumeMounts:
-            - mountPath: /app/data
+            - mountPath: "/app/data"
               name: data
           {{- end }}
       {{- with .Values.nodeSelector }}
