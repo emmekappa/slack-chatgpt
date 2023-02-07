@@ -62,6 +62,12 @@ tolerations: []
 
 affinity: {}
 
+persistence:
+  enabled: false
+  storageClass: standard-rwo
+  accessMode: ReadWriteOnce
+  size: 256Mb
+
 slack:
   botToken: "xoxb-...."
   appToken: "xapp-..."
