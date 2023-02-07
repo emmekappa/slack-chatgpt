@@ -3,6 +3,17 @@ entries:
   slack-chatgpt:
   - apiVersion: v2
     appVersion: 0.1.0
+    created: "2023-02-07T16:11:22.018473735Z"
+    description: ChatGPT on Slack!
+    digest: aa505749bd89d9d718107856df629e2f15b1e310bb294d0d5ece2366568c3e2b
+    icon: https://raw.githubusercontent.com/emmekappa/slack-chatgpt/main/images/ChatGPT-Icon-Logo.png
+    name: slack-chatgpt
+    type: application
+    urls:
+    - https://github.com/emmekappa/slack-chatgpt/releases/download/slack-chatgpt-0.1.8/slack-chatgpt-0.1.8.tgz
+    version: 0.1.8
+  - apiVersion: v2
+    appVersion: 0.1.0
     created: "2023-02-07T16:07:13.391072022Z"
     description: ChatGPT on Slack!
     digest: e09c9c95b7897e483a8b872bc1c93d615c1e940b7585211c77e886d4150d1dc0
@@ -53,4 +64,4 @@ entries:
     urls:
     - https://github.com/emmekappa/slack-chatgpt/releases/download/slack-chatgpt-0.1.3/slack-chatgpt-0.1.3.tgz
     version: 0.1.3
-generated: "2023-02-07T16:07:13.391156823Z"
+generated: "2023-02-07T16:11:22.018492835Z"
