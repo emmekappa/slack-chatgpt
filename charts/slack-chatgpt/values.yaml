@@ -62,6 +62,9 @@ tolerations: []
 
 affinity: {}
 
+strategy:
+  type: Recreate
+
 persistence:
   enabled: false
   storageClass: standard-rwo
