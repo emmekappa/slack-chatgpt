@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  slack-chatgpt:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-02-07T14:27:44.90796693Z"
+    description: ChatGPT on Slack!
+    digest: f342a29342b9f1ecbcb937bea02af041467695d909eee0f4fb52e8e376e8a930
+    name: slack-chatgpt
+    type: application
+    urls:
+    - https://github.com/emmekappa/slack-chatgpt/releases/download/slack-chatgpt-0.1.2/slack-chatgpt-0.1.2.tgz
+    version: 0.1.2
+generated: "2023-02-07T14:27:44.90797093Z"
