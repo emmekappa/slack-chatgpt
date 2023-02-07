@@ -1,11 +1,8 @@
 name: Helm lint
+
 on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+  [push, pull_request]
+
 jobs:
   helm-check:
     runs-on: ubuntu-latest
