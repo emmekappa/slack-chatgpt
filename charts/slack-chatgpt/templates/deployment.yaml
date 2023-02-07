@@ -35,7 +35,7 @@ spec:
       volumes:
         - name: data
           persistentVolumeClaim:
-            claimName: {{ include "slack-chatgpt.persistentVolumeClaim" . }}
+            claimName: {{ include "slack-chatgpt.fullname" . }}
       {{- end }}
       containers:
         - name: {{ .Chart.Name }}

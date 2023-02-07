@@ -60,7 +60,3 @@ Create the name of the service account to use
 {{- default "default" .Values.serviceAccount.name }}
 {{- end }}
 {{- end }}
-
-{{- define "slack-chatgpt.persistentVolumeClaim" -}}
-{{- printf "%s-%s" .Chart.Name "data" | replace "+" "_" | trunc 63 | trimSuffix "-" }}
-{{- end }}
