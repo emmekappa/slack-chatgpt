@@ -17,7 +17,7 @@ const app = new bolt.App({
 const api = new ChatGPTAPI({
   apiKey: process.env.OPENAI_API_KEY,
   completionParams: { model: 'gpt-4' },
-  maxModelTokens: 8100 // not 8192 because we're leaving some buffer room
+  maxModelTokens: 2000 // not 8192 because we're leaving some buffer room
 });
 
 async function startNewSession(channel, tsOrThreadTs, receivedText) {
